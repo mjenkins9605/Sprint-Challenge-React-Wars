@@ -27,11 +27,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+    Created by Facebook, javascript library for building user interfaces. Was built to handle large amounts of data without bogging down the DOM.
+
 - [ ] What does it mean to _think_ in react?
+
+    Way to break down a project into smaller junks to handle easier.
+      Start With A Mock
+		  Step 1: Break The UI Into A Component Hierarchy
+		  Step 2: Build A Static Version in React
+		  Step 3: Identify The Minimal (but complete) Representation Of UI State
+		  Step 4: Identify Where Your State Should Live
+		  Step 5: Add Inverse Data Flow
+
 
 - [ ] Describe state.
 
+    An object that determines how that component renders & behaves.
+    What allows you to create components that are dynamic and interactive.
+
 - [ ] Describe props.
+
+    Technique for sharing code between React components using a prop whose value is a function. 
+    Takes a function that returns a React element and calls it instead of implementing its own render logic.
 
 ## Project Set Up
 
