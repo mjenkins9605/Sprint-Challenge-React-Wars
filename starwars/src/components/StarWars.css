@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+.char-card {
+    display: flex;
+    flex-direction: column;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 50px auto;
+    background-color: #ACAFB4;
+    font-size: 22px;
+}
+
+.char-list {
+    display: flex;
+    flex-wrap: wrap;
+}
