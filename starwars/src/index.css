@@ -5,4 +5,5 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
   background-size: auto;
+  background-attachment: fixed;
 }
